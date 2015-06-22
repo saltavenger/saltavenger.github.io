@@ -1,0 +1,41 @@
+.record{
+	width: 80%;
+	margin: 0 auto;
+}
+.details{
+	width: 100%;
+}
+.detailsTitle > h1{
+	float: left;
+	max-width: 950px;
+}
+.detailsTitle > p{
+	float: right;
+	margin-top: 25px;
+	font-weight: bold;
+	font-size: 20pt;
+}
+.detailsInfo{
+	display: none;
+	clear: both;
+}
+.bodyText{
+	max-height: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: all 0.7s;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+}
+
+.expanded{
+	max-height: 999px;
+}
+
+
+/* Helpers */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
